@@ -7,17 +7,6 @@ NetShield AI est une plateforme intelligente de surveillance réseau qui effectu
 
 ## 🏗️ Architecture du Système
 
-netshield-ai/
-├── phase1_discovery.py            # Scan sous-réseau & inventaire
-├── phase3_ping_engine.py          # Surveillance ping en arrière-plan
-├── phase4_ai_diagnostics.py      # Moteur de classification IA
-├── app_dashboard.py               # Interface web Streamlit
-├── network_inventory.json         # Master JSON inventaire
-├── outage_logs.json               # Logs d'arrêts historiques
-├── coupures_reseau.xlsx           # Export Excel
-├── network_diagnostic_report.md   # Rapport synthétique IA
-└── requirements.txt               # Liste des dépendances Python
-
 Le système est découpé en 4 composants modulaires :
 
 1. **`phase1_discovery.py` (Découverte & Inventaire) :** Balayage multi-thread du sous-réseau (`10.10.50.x`), résolution ARP/MAC, lookup constructeur et libération automatique des adresses IP inactives (`Free Device` après 5 min).
