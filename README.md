@@ -78,4 +78,42 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
+### Étape 3 : Installer les dépendances
+```
+pip install -r requirements.txt
+```
+### Étape 4 : Configurer le sous-réseau cible
+```
+TARGET_SUBNET = "192.168.2"  # Exemple : 192.168.2.x
+```
+### Lancement et Utilisation
+## 1-Lancer le premier scan d'inventaire (Phase 1) :
+```
+python phase1_discovery.py
+```
+## 2-Démarrer la surveillance continue en arrière-plan (Phase 3)
+```
+python phase3_ping_engine.py
+```
+## 3-Démarrer la surveillance continue en arrière-plan (Phase 3)
+```
+python phase3_ping_engine.py
+```
+## 4-Lancer l'analyse IA (Optionnel / Manuel) :
+```
+python phase4_ai_diagnostics.py
+```
+## 5-Ouvrir le Dashboard Streamlit :
+```
+streamlit run app_dashboard.py
+```
 
+
+### 👤 Auteur
+### Hazem Mastouri
+
+### Data Scientist & IT-Manager
+
+### ✉️ Contact : hazem.mastouri.dev.ds@gmail.com
+
+Projet développé pour la supervision et l'optimisation des infrastructures réseau.
