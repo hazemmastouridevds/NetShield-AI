@@ -16,16 +16,6 @@ Le système est découpé en 4 composants modulaires :
 
 ---
 
-## 📋 Table des Matières
-1. [Fonctionnalités Clés](#-fonctionnalités-clés)
-2. [Stack Technique](#-stack-technique)
-3. [Guide d'Installation Pas à Pas](#-guide-dinstallation-pas-à-pas)
-4. [Lancement et Utilisation](#-lancement-et-utilisation)
-5. [Structure du Projet](#-structure-du-projet)
-6. [Auteur](#-auteur)
-
----
-
 ## ✨ Fonctionnalités Clés
 
 * **Découverte Automatique Réseau :** Cartographie dynamique enregistrée dans `network_inventory.json`.
@@ -75,6 +65,7 @@ pip install -r requirements.txt
 ```
 TARGET_SUBNET = "192.168.2"  # Exemple : 192.168.2.x
 ```
+---
 ### Lancement et Utilisation
 ## 1-Lancer le premier scan d'inventaire (Phase 1) :
 ```
@@ -96,7 +87,7 @@ python phase4_ai_diagnostics.py
 ```
 streamlit run app_dashboard.py
 ```
-
+---
 
 ### 👤 Auteur
 ### Hazem Mastouri
