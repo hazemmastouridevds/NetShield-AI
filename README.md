@@ -65,8 +65,17 @@ Le système est découpé en 4 composants modulaires :
 ```bash
 git clone [https://github.com/hazemmastouridevds/netshield-ai.git](https://github.com/votre-nom-utilisateur/netshield-ai.git)
 cd netshield-ai
+```
 
-###Étape 2 : Créer et activer un environnement virtuel
+### Étape 2 : Créer et activer un environnement virtuel
+```
+# Sur Windows
+python -m venv venv
+venv\Scripts\activate
 
+# Sur Linux / macOS
+python3 -m venv venv
+source venv/bin/activate
+```
 
 
